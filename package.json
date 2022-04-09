@@ -5,16 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production"
+    "start": "webpack serve --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Frank-0511/curso-webpack-react.git"
-  },
+  "repository": "git+https://github.com/Frank-0511/curso-webpack-react.git",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Frank Villanueva <frank05111996@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Frank-0511/curso-webpack-react/issues"
   },
